@@ -149,7 +149,7 @@ CREATE TABLE IF NOT EXISTS `registration` (
 --
 
 INSERT INTO `registration` (`username`, `password`, `nameofuser`, `Email`, `ContactNo`) VALUES
-('sam', 'knomic', 'Moses', 'knomic10@gmail.com', 123456);
+('sam', 'knomic', 'Moses', 'knomic@gmail.com', 123456);
 
 -- --------------------------------------------------------
 
@@ -177,8 +177,8 @@ CREATE TABLE IF NOT EXISTS `studentregistration` (
 --
 
 INSERT INTO `studentregistration` (`MatricNo`, `Fname`, `Sname`, `Address`, `ContactNo`, `EmailID`, `Age`, `Gender`, `Department`, `Level`) VALUES
-('01231', 'Elizabeth', 'Stanley', 'No 6 Sike COdji Street, Ketu, Lagos', '817256766', 'igbunumoses@gmail.com', 21, 'F', 'Computer Science', 300),
-('017/CSC/036', 'Samson', 'Moses', 'Arikawe Street', '08172567660', 'knomic10@gmail.com', 33, 'M', 'Computer Science', 300);
+('01231', 'Elizabeth', 'Stanley', 'No 6 Sike COdji Street, Ketu, Lagos', '8123456789', 'igbunumoses@gmail.com', 21, 'F', 'Computer Science', 300),
+('017/CSC/036', 'Samson', 'Moses', 'Arikawe Street', '08123456789', 'knomic@gmail.com', 33, 'M', 'Computer Science', 300);
 
 --
 -- Constraints for dumped tables
